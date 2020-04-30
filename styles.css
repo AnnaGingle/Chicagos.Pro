@@ -258,12 +258,23 @@ body .demo-blog {
   border-bottom-right-radius: 2px;
 }
 
+.demo-blog .skyline .mdl-card__media {
+  background-image: url('images/chicago-skyline-reflections-remo-daut.jpg');
+  min-height: 200px;
+
+}
+
+.demo-blog .river .mdl-card__media {
+  background-image: url('images/river.jpg');
+  min-height: 200px;
+
+}
+
 .demo-blog .on-the-road-again .mdl-card__media {
   background-image: url('images/summerHouse.png');
   min-height: 200px;
 
 }
-
 
 .demo-blog .shopping .mdl-card__media {
   background-image: url('images/help.png');

@@ -12,7 +12,7 @@ body::before {
 }
 
 main {
-  background: pink;
+  background: #82b2ff;
 }
 
 @media (max-width: 512px) and (-webkit-min-device-pixel-ratio: 1.5),
@@ -316,7 +316,7 @@ body .demo-blog {
 }
 
 .demo-blog .demo-blog__posts>.demo-nav>.demo-nav__button {
-
+  color: black;
   text-decoration: none;
 }
 
@@ -327,8 +327,8 @@ body .demo-blog {
 }
 
 .demo-blog .demo-blog__posts>.demo-nav .mdl-button {
-  color: rgba(0, 0, 0, 0.54);
-  background-color: white;
+  color: black;
+  background-color: #e3f2fd;
 }
 
 .demo-blog .demo-blog__posts>.demo-nav>.demo-nav__button:first-child .mdl-button {
@@ -373,7 +373,7 @@ body .demo-blog {
 }
 
 .demo-blog--blogpost .demo-blog__posts>.mdl-card .mdl-card__media {
-  background-image: url('images/road_big.jpg');
+
   height: 280px;
 }
 
@@ -536,7 +536,7 @@ body .demo-blog {
   position: absolute;
   top: 16px;
   left: 16px;
-  color: white;
+  color: rgb(0, 0, 0);
   z-index: 9999;
 }
 

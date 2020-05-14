@@ -210,6 +210,28 @@ body .demo-blog {
   order: 0;
 }
 
+
+
+.svg {
+  padding-bottom: 300px;
+  justify-content: center;
+  display: block;
+  margin: auto;
+}
+
+.logo {
+  max-width: 20%;
+
+  height: auto;
+  justify-content: center;
+  display: block;
+  margin: auto;
+  align-items: center;
+
+  padding: 10px;
+  margin: 50px, 50px, 50px;
+}
+
 .demo-blog.is-small-screen .demo-blog__posts>.mdl-card.something-else {
   -webkit-order: -1;
   -ms-flex-order: -1;
@@ -537,7 +559,16 @@ body .demo-blog {
   top: 16px;
   left: 16px;
   color: rgb(0, 0, 0);
+
   z-index: 9999;
+}
+
+
+
+.mdl-button,
+.mdl-js-button,
+.mdl-button--icon {
+  cursor: pointer;
 }
 
 .demo-blog .section-spacer {
@@ -551,7 +582,17 @@ body .demo-blog {
   z-index: 10;
 }
 
-.demo-blog .amazing .mdl-card__title {}
+.mdl-card__supporting-text2 {
+  color: rgba(0, 0, 0, .54);
+  font-size: 1rem;
+  line-height: 20px;
+  overflow: hidden;
+  padding: 16px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
 
 .demo-blog .minilogo {
   width: 44px;
@@ -618,19 +659,23 @@ body .demo-blog {
 .social-btn__share {
   color: rgba(0, 0, 0, 0.54);
   background: transparent;
+  cursor: pointer;
 }
+
 
 .demo-blog .mdl-mini-footer {
   margin-top: 80px;
   height: 120px;
   padding: 40px;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
   background-color: white;
   box-sizing: border-box;
-  width: 100%;
+}
 
+
+
+.mdl-mini-footer--social-btn .social-btn__share {
+  cursor: pointer;
 }
 
 .demo-blog .mdl-mega-footer {
